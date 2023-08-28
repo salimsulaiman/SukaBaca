@@ -23,10 +23,10 @@ function Footer() {
                   <a href="">Beranda</a>
                 </li>
                 <li>
-                  <a href="">Tentang Kami</a>
+                  <a href="">Fitur</a>
                 </li>
                 <li>
-                  <a href="">Fitur</a>
+                  <a href="">Artikel</a>
                 </li>
               </ul>
             </div>

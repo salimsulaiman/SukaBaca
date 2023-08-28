@@ -20,7 +20,7 @@ function Home() {
                 </span>
               </h1>
               <p>Platform pendukung dalam meningkatkan kemampuan literasi membaca</p>
-              <button className="button btn-sky shadow-sm">Join US</button>
+              <button className="button btn-sky shadow-sm">Bergabung</button>
             </div>
             <div className="col-lg-7">
               <img src={bannerImage} alt="" className="img-fluid" />
@@ -28,7 +28,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className="desc py-4">
+      <section className="desc py-4" id="about">
         <div className="container bg-sky-200 border-sky-300 p-3 rounded text-slate-500">
           <div className="row justify-content-center align-items-center">
             <div className="col-lg-3 d-flex justify-content-center">
@@ -48,7 +48,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className="feature py-4">
+      <section className="feature py-4" id="feature">
         <div className="container text-slate-200">
           <h2 className="fw-bold">Apa yang kami tawarkan</h2>
           <p>
@@ -105,7 +105,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className="article py-4">
+      <section className="article py-4" id="article">
         <div className="container">
           <h2 className="text-center fw-bold text-slate-500">Artikel</h2>
           <p className="text-center text-slate-200">

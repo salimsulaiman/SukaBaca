@@ -1,12 +1,13 @@
 import React from "react";
+import { HashLink as Link } from "react-router-hash-link/dist/react-router-hash-link.cjs.production";
 
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg fixed-top bg-light">
       <div className="container">
-        <a className="nav-brand fw-medium" href="#">
+        <Link to="#home" className="nav-brand fw-medium">
           Suka<span className="fw-bold">Baca</span>
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -20,15 +21,15 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav ms-auto">
-            <a className="nav-link" aria-current="page" href="#">
+            <Link to="#home" className="nav-link">
               Beranda
-            </a>
-            <a className="nav-link" href="#">
-              Tentang Kami
-            </a>
-            <a className="nav-link" href="#">
+            </Link>
+            <Link to="#feature" className="nav-link">
               Fitur
-            </a>
+            </Link>
+            <Link to="#article" className="nav-link">
+              Artikel
+            </Link>
             <a className="nav-link" href="#">
               Daftar
             </a>
