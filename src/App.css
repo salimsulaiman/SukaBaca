@@ -1,0 +1,130 @@
+body{
+    position: relative;
+    bottom: 0;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner{
+    background: url("./assets/banner.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.desc .container{
+    overflow: hidden;
+}
+
+
+.desc-img{
+    width: 150px
+}
+.nav-brand{
+    text-decoration: none;
+    font-size: 24px;
+    color: #30A2FF;
+}
+.f-icon{
+    top: -15px;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    background-color: #C7E6FF;
+}
+
+.f-icon i{
+    font-size: 30px;
+    color: white;
+}
+footer{
+    position: relative;
+    bottom: 0;
+}
+
+footer li{
+    list-style: none;
+}
+footer a{
+    text-decoration: none;
+    color: #64748B;
+}
+footer a:hover{
+    color: #334155;
+}
+
+footer i{
+    font-size: 20px;
+}
+
+.footer-icon{
+    cursor: pointer;
+    font-size: 30px;
+}
+.decoration-none{
+    text-decoration: none;
+}
+
+.img-cover{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.card img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.card-link{
+    text-decoration: none;
+    color: #30A2FF;
+}
+.card-link:hover{
+    color: #1387e7;
+}
+
+.button{
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+.btn-sky{
+    background-color: #30A2FF;
+    color: #fff;
+}
+.box{
+    background-color: #F4FAFF;
+    margin: 15px 0;
+    position: relative;
+    border: #CBE8FF solid 1px;
+}
+
+.btn-sky:hover{
+    background-color: #329bf1;
+}
+
+.bg-sky-200{
+    background-color: #F4FAFF;
+}
+
+.border-sky-300{
+    border: #CBE8FF solid 1px;
+}
+.text-slate-200{
+    color: #64748B;
+}
+.text-slate-500{
+    color: #334155;
+}
+.text-sky-500{
+    color: #30A2FF;
+}
+
+@media only screen and (max-width: 991.9px) {
+    .box-description{
+        text-align: center;
+    }
+    .feature .img-fluid{
+        display: none;
+    }
+  }
